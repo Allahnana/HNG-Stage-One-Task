@@ -1,38 +1,85 @@
-.App {
+.main{
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  display: flex;
+  padding: 90px 0 90px 0;
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+
 }
 
-.App-link {
-  color: #61dafb;
+.sub-main{
+  display: flex;
+  justify-content: center;
+  width: 35%;
+  height: 550px;
+  padding-top: 30px;
+  border-radius: 10px;
+  background: rgb(253, 160, 200);
+  background: radial-gradient(circle, rgb(254, 162, 202) 0%, rgba(148,187,233,1) 100%);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+.img{
+  padding-top: 20px;
+  justify-content: center;
+  display: flex;
+  
+
 }
+
+.container-img{
+  width: 115px;
+  height: 115px;
+  display: flex;
+  align-items: center;
+  border-radius: 150px;
+}
+
+.profile{
+  width: 100px;
+  height: 100px;
+  align-items: center;
+  border-radius: 150px;
+}
+
+.link-sec{
+  display: grid;
+  row-gap: 10px;
+  padding-top: 8px;
+ 
+}
+
+.twitter{
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+  font-weight: 750;
+}
+
+.slack{
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.btn{
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  border: 2px solid #dd94fc;
+}
+
+.link{
+  text-decoration: none;
+  color: black;
+}
+
