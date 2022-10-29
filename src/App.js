@@ -16,7 +16,7 @@ function App() {
           </div>
 
           <div className="profile-sec">
-            <h1 className="twitter">Dev_Allahnana</h1>
+            <h1 className="twitter"><a className="link" href="https://twitter.com/dev_allahnana">Dev_Allahnana</a></h1>
             <h2 className="slack">Dev_Abdul</h2>
           </div>
 
