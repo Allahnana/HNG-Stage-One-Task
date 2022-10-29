@@ -26,7 +26,7 @@ function App() {
             
             <button className="btn"><a className="link" href="https://books.zuri.team/">Zuri Books</a></button>
           
-            <button className="btn"><a className="link" href="https://books.zuri.team/">Python</a></button>
+            <button className="btn"><a className="link" href="https://books.zuri.team/">Python Books</a></button>
             
             <button className="btn"><a className="link" href="https://background.zuri.team/">Pitch</a></button>
 
